@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:hover{
+    color: #fff;
+}
+.header{
+    position: relative;
+    width: 1200px;
+    height: 509px;
+    margin: 0% auto;
+    background-color: aquamarine;
+}
+.header_flex{
+    position: absolute;
+    width: 800px;
+    height: 85px;
+    margin: 0px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: inline-start;
+}
+.box{
+    position: relative;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    width: 150px;
+    height: 62px;
+    padding: 12px;
+}
+.background{
+    position: relative;
+    top: 30px;
+    margin: 0px auto;
+    width: 1200px;
+    height: 300px;
+    background-color: #eae7e8;
+}
+.welcome{
+    position: relative;
+    top: 50px;
+    left: 200px;
+    width: 800px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+}
+.welcome_img{
+    width: 292px;
+    height: 350px;
+}
+.welcome_textarea{
+    width: 508px;
+    height: 350px;
+    color: black;
+    background-color: #fff;
+}
+.text{
+    position: relative;
+    top: 70px;
+    margin: 0px 40px;
+    color: #000;
+}
+.welcome_video{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    left: 325px;
+    top: -50px;
+    background-color: transparent;
+    background-color: deeppink;
+}
+.one{
+    position: relative;
+    top: 50px;
+    left: 75px;
+}
+.title{
+    position: relative;
+    top: 30px;
+    width: 358px;
+    height: 50px;
+    margin: 0px 75px;
+    text-align: center;
+    font-size: 35px;
+}
+.title_title{
+    color: #000;
+}
+.Lavy{
+    position: relative;
+    top: 40px;
+    width: 1200px;
+    height: 600px;
+    margin: 175px auto;
+}
+.Lavy_title{
+    position: relative;
+    top: 30px;
+    width: 800px;
+    height: 75px;
+    margin: 0px 200px;
+}
+.Lavy_title_content{
+    position: relative;
+    top: 20px;
+    font-size: 35px;
+    font-family: Bold;
+    text-align: center;
+    color: black;
+}
+.content_lamy{
+    color: #000;
+}
+.Lavy_content{
+    position: relative;
+    top: 100px;
+    width: 1000px;
+    height: 300px;
+    margin: 0px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Lavy_end{
+    position: relative;
+    top: 135px;
+    width: 190px;
+    height: 40px;
+    margin: 0px 500px;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 22px;
+    background-color: black;
+}
+.Lavy_end_photo{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.room{
+    position: relative;
+    top: 0px;
+    width: 300px;
+    height: 300px;
+    color: #000;
+    line-height: 30px;
+    text-align: center;
+}
+.room1{
+    color: black;
+    font-size: 22px;
+}
+.Lavy_example{
+    position: relative;
+    top: -75px;
+    width: 1200px;
+    height: 243px;
+    margin: 0px auto;
+    background-color: violet;
+}
+.Lavy_background{
+    position: relative;
+    top: -75px;
+    width: 1200px;
+    height: 250px;
+    margin: 0px auto;
+    background-color: gray;
+}
+.example_title{
+    position: relative;
+    top: 20px;
+    width: 300px;
+    height: 60px;
+    margin: 0px 450px;
+    text-align: center;
+}
+.example_title_form{
+    color: #d8d8d8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.example_title_what{
+    color: #d8d8d8;
+}
+.example_introduce{
+    position: relative;
+    top: 25px;
+    width: 800px;
+    height: 225px;
+    margin: 0px 200px;
+    background-color: #ffffff;
+}
+.introduce{
+    position: relative;
+    top: 10px;
+    left: 375px;
+}
+.introduce_text{
+    position: relative;
+    text-align: center;
+    top: 30px;
+    color: #000;
+}
+.picture_title{
+    position: relative;
+    top: 10px;
+    width: 200px;
+    height: 75px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+}
+.Choose{
+    font-family: Segoe Script;
+    color: #000;
+}
+.Our{
+    color: #000;
+}
+.picture_example{
+    position: relative;
+    top: 0px;
+    width: 900px;
+    height: 400px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.space_list{
+    position: relative;
+    width: 750px;
+    height: 300px;
+    padding: 20px;
+    left: 60px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: 'a c e'
+                         'a f e'
+                         'g f h';
+}
+.space_list div:nth-child(1){
+    grid-area: a;
+}
+.space_list div:nth-child(5){
+    grid-area: f;
+}
+.space_list div:nth-child(3){
+    grid-area: e;
+}
+.space{
+    margin: 10px 50px;
+    position: relative;
+    background-color: blue;
+}
+.picture_end{
+    margin: 0px auto;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+}
+.picture8{
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.picture_background{
+    position: relative;
+    top: 0px;
+    width: 1200px;
+    height: 250px;
+    margin: 0px auto;
+    background-color: grey;
+}
+.picture_context{
+    position: relative;
+    top: 100px;
+    width: 600px;
+    height: 250px;
+    margin: 0px 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.picture_picture{
+    top: 0px;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.picture_box{
+    position: relative;
+    width: 200px;
+    height: 64px;
+    margin: 10px auto;
+    background-color: blue;
+}
+.picture_textarea{
+    width: 350px;
+    height: 250px;
+    color: #000;
+    font-size: 16px;
+}
+.english{
+    color: #000;
+}
+.picture_button{
+    position: relative;
+    top: 125px;
+    width: 150px;
+    height: 45px;
+    margin: 0px auto;
+    text-align: center;
+    color: #fff;
+    background-color: deeppink;
+}
+.button{
+    position: relative;
+    top: 8px;
+    left: 5px;
+}
+.end{
+    position: relative;
+    top: 100px;
+    width: 1200px;
+    height: 611px;
+    margin: 0px auto;
+}
+.end_text{
+    position: relative;
+    top: 250px;
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.end_room{
+    position: relative;
+    width: 200px;
+    height: 50px;
+}
+.LAMY{
+    position: relative;
+    top: 1px;
+    left: 25px;
+    color: gray;
+    font-size: 55px;
+}
+.cute{
+    position: relative;
+    color: #000;
+    top: 15px;
+    font-size: 12px;
+    left: 115%;
+}
+.good{
+    position: relative;
+    color: #000;
+    top: 15px;
+    font-size: 12px;
+    right: 20%;
+}
+.foot{
+    position: relative;
+    margin: 150px auto;
+    width: 1200px;
+    height: 23px;
+    background-color: aqua;
+}
+.foot_text{
+    position: relative;
+    top: -25px;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
